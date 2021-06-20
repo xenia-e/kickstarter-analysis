@@ -16,7 +16,7 @@ To do so, I created a pivot table filtered by Parent category and Year with Date
 To better visualize data I created Pivot Chart. I chose the 'Line with dots' chart type as I think it suits best to represent the correlation of the data. 
 The results of the performed analysis are shown in the Figure 1 - Theater Outcomes by Launch Date
 
-![Theater Outcomes by Launch Date] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png) chart.
+![Theater Outcomes by Launch Date] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png?raw=true) chart.
 
 ### Analysis of Outcomes Based on Goals
 Analysis of outcomes based on funding goals amount helped us to decide whether our goal is too bold to be funded.
