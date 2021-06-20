@@ -18,6 +18,7 @@ The results of the performed analysis are shown in the Figure 1 - Theater Outcom
 
 ![Theater Outcomes by Launch Date] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png?raw=true) chart.
 
+
 ### Analysis of Outcomes Based on Goals
 Analysis of outcomes based on funding goals amount helped us to decide whether our goal is too bold to be funded.
 To distinguish the most successful funding goal amounts I used the percentage of success of different goals. I divided all funding goals into 12 groups with a step of $5000.  Then using the `COUNTIFS` function I counted all successful, failed and canceled plays.  An example of the formula used to count all successful plays with a funding goal amount between $10000 and $14999 which is our target range is:
