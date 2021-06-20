@@ -14,7 +14,7 @@ Using the Kickstarter dataset I have analyzed and visualized results similar to 
 Performing analysis of outcomes based on the launch date helped us to determine the best date to launch our campaign. 
 To do so, I created a pivot table filtered by Parent category and Year with Date created (launched) in the Rows section, Outcomes in columns section, and Outcomes in the Values section. 
 To better visualize data I created Pivot Chart. I chose the 'Line with dots' chart type as I think it suits best to represent the correlation of the data. 
-The results of the performed analysis are shown in the Figure 1 - Theater Outcomes by Launch Date
+The results of the performed analysis are shown in Figure 1 - Theater Outcomes by Launch Date
 
 ![Theater Outcomes by Launch Date](https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
@@ -44,6 +44,7 @@ I used a 2D line chart to visualize data. The results of the analysis presented 
 
 ### Challenges and Difficulties Encountered
 
+ This analysis should not be difficult Technically since we used only standard Excell instruments and had the dataset ready for analysis. Anyway, recognizing timestamps for actual data and converting it might be challenging, and to divide one data column into two using special symbols as an anchor might be considered as not on the surface move.
 
 ## Results
 
@@ -56,6 +57,6 @@ I used a 2D line chart to visualize data. The results of the analysis presented 
 
 - In my opinion, one of the major limitations of the dataset is that we cannot identify the target audience for successful campaigns and types of plays that were more successful than others. Who are potential backers for Louise? Were drama plays more successful than comedies? Answers to that questions will surely benefit Louise. 
 
-- I would suggest analyzing the length of the campaigns as an extra factor for success. 
+- I would suggest analyzing campaign duration as an extra factor for its success. 
 
 
