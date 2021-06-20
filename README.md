@@ -16,7 +16,9 @@ To do so, I created a pivot table filtered by Parent category and Year with Date
 To better visualize data I created Pivot Chart. I chose the 'Line with dots' chart type as I think it suits best to represent the correlation of the data. 
 The results of the performed analysis are shown in the Figure 1 - Theater Outcomes by Launch Date
 
-![Theater Outcomes by Launch Date] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png?raw=true) chart.
+![Theater Outcomes by Launch Date](https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+
+>Figure 1 - Theater Outcomes by Launch Date
 
 
 ### Analysis of Outcomes Based on Goals
@@ -36,19 +38,24 @@ If all 4 criteria meet then the field will be counted.
 I used the simple SUM function to count all the plays used for the analysis. After that, I changed the data type in the columns "Percentage Successful", "Percentage Failed", and "Percentage Canceled" to `Percentage` and used formula  `=Number of plays/Total plays` (e.g. `=B2/E2`) to find the percentages.
 I used a 2D line chart to visualize data. The results of the analysis presented in Figure 2 - Outcomes Based on Goal
 
-  ![Outcomes Based on Goal] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png) chart.
+ ![Outcomes Based on Goal](https://github.com/xenia-e/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+  
+  >Figure 2 - Outcomes Based on Goal
 
 ### Challenges and Difficulties Encountered
 
 
 ## Results
 
-- Looking at the ![Theater Outcomes by Launch Date] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png) chart I can say that the best months to launch the campaign are May or June, to narrow it down even more we can find the percentage of successful crowdfunding campaigns launched. We can narrow the period to May based on calculations. Still, the period from February to July has over 60% of successful campaigns. So two conclusions drawn from this analysis are:
-The most favorable month to launch a campaign is May.
-Louise should avoid launching her project in December as it has the lowest percentage of successful campaigns.
+- Looking at the [Theater Outcomes by Launch Date](https://github.com/xenia-e/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png) chart I can say that the best months to launch the campaign are May or June, to narrow it down even more we can find the percentage of successful crowdfunding campaigns launched. We can narrow the period to May based on calculations. Still, the period from February to July has over 60% of successful campaigns. So two conclusions drawn from this analysis are:
 
-- Looking at ![Outcomes Based on Goal] (https://github.com/xenia-e/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png) we can say that projects with the funding goal amount as Louise's don't always succeed. Still, in 54% of cases, they meet the funding goal, so Louise must look deeper into those that end up reaching the goal.
+  1. The most favorable month to launch a campaign is May.
+  2. Louise should avoid launching her project in December as it has the lowest percentage of successful campaigns.
+
+- Looking at [Outcomes Based on Goal](https://github.com/xenia-e/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png) chart we can say that projects with the funding goal amount as Louise's don't always succeed. Still, in 54% of cases, they meet the funding goal, so Louise must look deeper into those that end up reaching the goal.
 
 - In my opinion, one of the major limitations of the dataset is that we cannot identify the target audience for successful campaigns and types of plays that were more successful than others. Who are potential backers for Louise? Were drama plays more successful than comedies? Answers to that questions will surely benefit Louise. 
 
 - I would suggest analyzing the length of the campaigns as an extra factor for success. 
+
+
